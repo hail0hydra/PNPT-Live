@@ -91,7 +91,7 @@ it takes around `1.044` seconds.
 - I asked the mods for help and [`Dewalt`](https://github.com/Dewalt-arch/pimpmykali) replied: 
 
     ```text
-    Python is faster then Bash an is ranked 1st, while
+    Python is faster than Bash and is ranked 1st, while
     Bash is ranked 34th. The most important reasons 
     people chose Python are that it can be used for
     almost any task. It works on most 
