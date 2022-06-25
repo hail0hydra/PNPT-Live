@@ -31,4 +31,4 @@ if __name__ == "__main__":
     except IndexError:
         os.system("echo -e '\033[36msomething is missing!\nUsage : ./pynmap.py <ip-address-here> <port-range-here>\n(i.e, 65536)\033[0m'")
     except:
-        print("Not in the mood today :(")
+        print(f"Oops!", sys.exc_info[0],"occured :(")
