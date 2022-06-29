@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# Day 2
+
 import socket as sock
 # import pyfiglet
 import os

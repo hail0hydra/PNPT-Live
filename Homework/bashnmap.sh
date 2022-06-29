@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+# Day 2
+
 echo -e "\033[1;31m--==[[ Bash Port Scanner by Hail_Hydra ]]==--\033[0m" 
 echo "" ""
 
