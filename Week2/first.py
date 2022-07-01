@@ -1,61 +1,61 @@
 ##!/usr/bin/python3
 
-# Print string
-print("Hello, World!") #double quotes
+## Print string
+#print("Hello, World!") #double quotes
 
-print('Hello, world!') #single quotes
+#print('Hello, world!') #single quotes
 
-print("""This string runs multiple 
-        lines""") # triple quotes for multiple lines
-
-
-print("This string is "+"awesome!")
-
-print("\n") # new line
+#print("""This string runs multiple 
+#        lines""") # triple quotes for multiple lines
 
 
+#print("This string is "+"awesome!")
 
-# MATH
-
-print(50+50) #add
-print(50-50) #subtract
-print(50 *50) #multiply
-print(50/50) #divide
-print(50+50 - 50*50 /  50) #BODMAS
-print(50**2) #exponents
-print(50%6) # modulo - remainder
-print(50/6)
-print(50//6) #Quotient - division with no leftovers
+#print("\n") # new line
 
 
- # Variables and methods
-quote = "All is fair in love and war"
-print(quote)
 
-# A method is a functions avialable for given object. we are talking about bbuilt-ins
+## MATH
 
-print(quote.upper())
-print(quote.lower())
-print(quote.title())
-print(len(quote))
+#print(50+50) #add
+#print(50-50) #subtract
+#print(50 *50) #multiply
+#print(50/50) #divide
+#print(50+50 - 50*50 /  50) #BODMAS
+#print(50**2) #exponents
+#print(50%6) # modulo - remainder
+#print(50/6)
+#print(50//6) #Quotient - division with no leftovers
 
 
-name = "regx" #string
-age = 1337 #int
-gpa = 3.7 # float
+# # Variables and methods
+# quote = "All is fair in love and war"
+# print(quote)
 
-print(int(age))
-print(int(30.1))
-print(int(30.9))
+# # A method is a functions avialable for given object. we are talking about bbuilt-ins
 
-print("My name is "+name+" and I am "+str(age)+" years old.")
+# print(quote.upper())
+# print(quote.lower())
+# print(quote.title())
+# print(len(quote))
 
-age+=1
 
-print(age)
+# name = "regx" #string
+# age = 1337 #int
+# gpa = 3.7 # float
 
-birthday = 1
-age+= birthday
+# print(int(age))
+# print(int(30.1))
+# print(int(30.9))
+
+# print("My name is "+name+" and I am "+str(age)+" years old.")
+
+# age+=1
+
+# print(age)
+
+# birthday = 1
+# age+= birthday
 
 # print(age)
 
@@ -170,3 +170,67 @@ print(alcohol(21,5))
 print(alcohol(21,4))
 print(alcohol(20,5))
 print(alcohol(20,4))
+
+###################################################################
+        
+        # DAY   2
+
+###################################################################
+
+nl()
+#LISTS - Have brackets []
+movies = ["When Harry Met Sally","The Hangover","The Perks of being a Wallflower","The Exorcist"]
+
+print(movies[0]) # Return First Item
+print(movies[1:3]) # returns two items
+print(movies[1:4]) # returns three items
+print(movies[1:]) #returns all items after specific stat-point
+print(movies[:1]) #specific end-point
+print(movies[:2])# everything before 2 
+print(movies[-1]) # returns very last items
+
+print(len(movies)) # count items in our list
+movies.append("Jaws") #appends to the end of the list
+print(movies)
+
+movies.pop() # removes last item
+print(movies)
+
+movies.pop(0) # removes first item
+print(movies)
+
+
+nl()
+
+
+
+
+#TUPLES - Like lists, but Immutable (can't be changed) ()
+grades = ('a','b','c','d','f')
+# grades.pop() #error's out
+print(grades[1])
+
+
+
+
+nl()
+
+#LOOPING
+
+# For Loops - start; stop; step
+
+vegetables = ["cucumber","cabbage","spinach"]
+
+for x in vegetables:
+    print(x)
+
+
+
+
+# While Loop - execute as long as true
+i = 1
+
+while i<10:
+    print(i)
+    i += 1
+
