@@ -14,3 +14,10 @@
 <br>
 
 - Start Date : 22 June 2022.  25 weeks - 2 Days each Week.
+
+
+<br>
+<br>
+
+
+- Couldn't Attend it entirely (Stuff Happened)
